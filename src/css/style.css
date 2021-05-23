@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+.task-container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.filter-widget__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: inline-block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  margin-top: 20px;
+}
+
+.alert-block {
+  display: none;
+  background: indianred;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pined-tasks {
+  padding-left: 0;
+}
+
+.all-tasks {
+  padding-left: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #8c99a5;
+}
+
+.task-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ced4da;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.task-button:hover {
+  background: #8c99a5;
+}
+
+.active-task-button {
+  display: none;
+  color: #ced4da;
+  font-weight: bold;
+}
+
+.no-task {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
