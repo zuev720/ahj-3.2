@@ -1,10 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/d0eiayha5u87ygji?svg=true)](https://ci.appveyor.com/project/zuev720/ahj-3-2)
 
-
-
-### TOP Tasks* (задача со звёздочкой)
-
-Важно: эта задача не является обязательной. Её (не)выполнение не влияет на получение зачёта по ДЗ.
+[GitHub-pages](https://zuev720.github.io/ahj-3.2/)
 
 #### Легенда
 
